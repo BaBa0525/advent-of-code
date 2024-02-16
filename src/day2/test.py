@@ -5,7 +5,7 @@ from main import part1, part2
 
 class TestDay2(unittest.TestCase):
     def __init__(self, *args, **kwargs):
-        super(TestDay2, self).__init__(*args, **kwargs)
+        super().__init__(*args, **kwargs)
         self.cur_dir = Path(__file__).parent
 
     def test_part1(self):
